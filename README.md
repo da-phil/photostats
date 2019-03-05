@@ -1,10 +1,18 @@
 # Photography Statistics
 
-Python library to extract statistics from EXIF data and show it on the
-commandline as well as matplotlib histogram plots.
+Python library to extract statistics from JPG EXIF tags and show it as a histogram both on the commandline as well as matplotlib histogram plots.
+
 Credit goes to Jason Millwards
 [photography-statistics](https://github.com/JasonMillward/photography-statistics)
-for providing a good foundation for this script.
+for providing a good foundation and inspiration for this script.
+
+The script works for the following EXIF tags:
+* FocalLength
+* ISOSpeedRatings
+* ExposureTime
+* LensModel
+
+It has been tested on my entire image folder which contains approx. 125 000 pictures.
 
 
 ### Installation
